@@ -26,7 +26,7 @@
                     e = t.show_all,
                     g = t.activity_id; return n({ url: "/activity/api/v1.0/yuanshen", params: { is_mine: C, userId: i, sign: A, show_all: e, activity_id: g, t: (new Date).getTime() } }) }
 
-            function a(t) { var C = t.activity_id; return n({ url: "/map/api/v1.0/categories/", params: { activity_id: C, t: (new Date).getTime() } }) }
+            function a(t) { var C = t.activity_id; return n({ url: "/map/api/v1.0/categories/index.php", params: { activity_id: C, t: (new Date).getTime() } }) }
 
             function r(t) { var C = t.category_id,
                     i = t.is_mine,
