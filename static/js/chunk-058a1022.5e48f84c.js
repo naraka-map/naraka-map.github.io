@@ -32,7 +32,7 @@
                     i = t.is_mine,
                     A = t.userId,
                     e = t.sign,
-                    g = t.show_all; return n({ url: "/map/api/v1.0/points/", params: { category_id: C, is_mine: i, userId: A, sign: e, show_all: g, t: (new Date).getTime() } }) }
+                    g = t.show_all; return n({ url: "/map/api/v1.0/points/index.php", params: { category_id: C, is_mine: i, userId: A, sign: e, show_all: g, t: (new Date).getTime() } }) }
 
             function u(t) { var C = t.lat,
                     i = t.lng,
